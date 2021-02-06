@@ -1,0 +1,69 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #8f395d;
+  font-family: monospace;
+}
+#one,
+#two {
+  display: none;
+}
+
+.show {
+  display: inline;
+}
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background: #000;
+  color: aliceblue;
+  font-size: 2rem;
+}
+.diceRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.diceRow img {
+  width: 15rem;
+  margin: 1rem;
+}
+.player1,
+.player2 {
+  text-align: center;
+}
+
+.button {
+  margin-bottom: 3rem;
+  background: rgb(228, 31, 123);
+  color: #fff;
+  width: 20%;
+  padding: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+.button:hover {
+  box-shadow: rgb(107, 46, 46) 1px 2px 6px;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+.footer a {
+  text-decoration: none;
+  color: rgb(230, 102, 102);
+  font-weight: bold;
+}
