@@ -68,3 +68,17 @@ body {
   color: rgb(230, 102, 102);
   font-weight: bold;
 }
+
+@media (max-width: 576px) {
+  .score {
+    padding: 1rem;
+    background: #000;
+    color: aliceblue;
+    font-size: 1rem;
+  }
+
+  .diceRow img {
+    width: 10rem;
+    margin: 1rem;
+  }
+}
