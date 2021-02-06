@@ -1,2 +1,2 @@
 # diceRoll
-##Simply dice rolling project writting in vanilla Js
+## Simply dice rolling project writting in vanilla Js
