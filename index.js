@@ -19,7 +19,7 @@ else if (randP1 < randP2) winner = "2";
 else if (randP1 === randP2) winner = "";
 
 if (winner === "") {
-  score.textContent = "No Winner";
+  score.innerHTML = "<h1> No Winner </h1>";
 } else {
   if (winner === "1") span1.setAttribute("id", "");
   if (winner === "2") span2.setAttribute("id", "");
